@@ -1,10 +1,3 @@
-# LintCode in Python3 
-
-Multiple solutions and comments are embedded in the code.     
-
-Such as: 
-
-```Python
 # Solution 1: Simple 
 # 
 # Hint: https://stackoverflow.com/questions/6760685/creating-a-singleton-in-python
@@ -33,5 +26,3 @@ class Solution:
             cls._instance = cls()
         cls._lock.release()
         return cls._instance
-
-```
