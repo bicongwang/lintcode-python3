@@ -16,6 +16,7 @@ class Solution:
             cls._instance = cls()
         return cls._instance
 
+
 # Solution 2: Solve the challenge: 
 # "If we call getInstance concurrently, can you make sure your code could run correctly?"
 # 
