@@ -1,10 +1,3 @@
-# LintCode in Python3 
-
-Multiple solutions and comments are embedded in the code.     
-
-Such as: 
-
-```Python
 # Solution 1: Simple 
 # 
 # Time complexity: O(n), n=32 in this problem
@@ -48,5 +41,3 @@ class Solution:
             count += 1
             num = num & (num - 1)
         return count 
-
-```

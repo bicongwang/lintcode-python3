@@ -16,6 +16,7 @@ class Solution:
 # Hint: threading.Lock()
 import threading
 
+
 class Solution:
     _lock = threading.Lock()
     
