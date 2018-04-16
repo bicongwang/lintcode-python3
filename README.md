@@ -50,3 +50,7 @@ class Solution:
         return count 
 
 ```
+
+## License
+
+@MIT
